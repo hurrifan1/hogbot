@@ -1,35 +1,223 @@
 {
-    "isMutuallyAuthenticated": false,
-    "contentLength": 3195,
-    "contentType": "application/json; charset=UTF-8",
-    "contentEncoding": null,
-    "cookies": [],
-    "lastModified": "2019-01-31T16:07:21.324731+00:00",
-    "server": "",
-    "protocolVersion": {
-        "major": 1,
-        "minor": 1,
-        "build": -1,
-        "revision": -1,
-        "majorRevision": -1,
-        "minorRevision": -1
-    },
-    "headers": [
-        "Date",
-        "Cache-Control",
-        "Pragma",
-        "Vary",
-        "Keep-Alive",
-        "Connection",
-        "Expires",
-        "Content-Type",
-        "Content-Length"
+    "id": 6219962109978500,
+    "name": "ChamberOfSecrets",
+    "version": 18,
+    "totalRowCount": 5,
+    "accessLevel": "OWNER",
+    "effectiveAttachmentOptions": [
+        "FILE",
+        "DROPBOX",
+        "ONEDRIVE",
+        "BOX_COM",
+        "GOOGLE_DRIVE",
+        "EVERNOTE",
+        "EGNYTE"
     ],
-    "method": "GET",
-    "responseUri": "https://api.smartsheet.com/2.0/sheets/6219962109978500/",
-    "statusCode": 200,
-    "statusDescription": "OK",
-    "characterSet": "UTF-8",
-    "supportsHeaders": true,
-    "isFromCache": false
+    "ganttEnabled": false,
+    "dependenciesEnabled": false,
+    "resourceManagementEnabled": false,
+    "cellImageUploadEnabled": true,
+    "userSettings": {
+        "criticalPathEnabled": false,
+        "displaySummaryTasks": true
+    },
+    "permalink": "https://app.smartsheet.com/sheets/r4W74RXcQHqrQ6F3Q3qvWf7gv4VcmhR75q77gXp1",
+    "createdAt": "2018-11-30T20:22:08Z",
+    "modifiedAt": "2018-12-13T17:14:38Z",
+    "columns": [
+        {
+            "id": 6557849842149252,
+            "version": 0,
+            "index": 0,
+            "title": "Primary Column",
+            "type": "TEXT_NUMBER",
+            "primary": true,
+            "hidden": true,
+            "validation": false,
+            "width": 150
+        },
+        {
+            "id": 4306050028464004,
+            "version": 0,
+            "index": 1,
+            "title": "House",
+            "type": "TEXT_NUMBER",
+            "validation": false,
+            "width": 150
+        },
+        {
+            "id": 8809649655834500,
+            "version": 0,
+            "index": 2,
+            "title": "Points",
+            "type": "TEXT_NUMBER",
+            "validation": false,
+            "width": 72
+        },
+        {
+            "id": 224662866159492,
+            "version": 0,
+            "index": 3,
+            "title": "Last Date Changed",
+            "type": "DATETIME",
+            "systemColumnType": "MODIFIED_DATE",
+            "validation": false,
+            "width": 150
+        },
+        {
+            "id": 489914140780420,
+            "version": 0,
+            "index": 4,
+            "title": "Column7",
+            "type": "TEXT_NUMBER",
+            "validation": false,
+            "width": 150
+        }
+    ],
+    "rows": [
+        {
+            "id": 500610543970180,
+            "rowNumber": 1,
+            "expanded": true,
+            "createdAt": "2018-11-30T20:23:36Z",
+            "modifiedAt": "2018-12-13T16:41:39Z",
+            "cells": [
+                {
+                    "columnId": 6557849842149252
+                },
+                {
+                    "columnId": 4306050028464004,
+                    "value": "Gryffindor",
+                    "displayValue": "Gryffindor"
+                },
+                {
+                    "columnId": 8809649655834500,
+                    "value": 1,
+                    "displayValue": "1"
+                },
+                {
+                    "columnId": 224662866159492,
+                    "value": "2018-12-13T16:41:39Z"
+                },
+                {
+                    "columnId": 489914140780420
+                }
+            ]
+        },
+        {
+            "id": 5004210171340676,
+            "rowNumber": 2,
+            "siblingId": 500610543970180,
+            "expanded": true,
+            "createdAt": "2018-11-30T20:23:36Z",
+            "modifiedAt": "2018-12-13T16:41:39Z",
+            "cells": [
+                {
+                    "columnId": 6557849842149252
+                },
+                {
+                    "columnId": 4306050028464004,
+                    "value": "Hufflepuff",
+                    "displayValue": "Hufflepuff"
+                },
+                {
+                    "columnId": 8809649655834500,
+                    "value": 2,
+                    "displayValue": "2"
+                },
+                {
+                    "columnId": 224662866159492,
+                    "value": "2018-12-13T16:41:39Z"
+                },
+                {
+                    "columnId": 489914140780420
+                }
+            ]
+        },
+        {
+            "id": 4261151838103428,
+            "rowNumber": 3,
+            "siblingId": 5004210171340676,
+            "expanded": true,
+            "createdAt": "2018-11-30T20:26:35Z",
+            "modifiedAt": "2018-12-13T16:41:39Z",
+            "cells": [
+                {
+                    "columnId": 6557849842149252
+                },
+                {
+                    "columnId": 4306050028464004,
+                    "value": "Ravenclaw",
+                    "displayValue": "Ravenclaw"
+                },
+                {
+                    "columnId": 8809649655834500,
+                    "value": 3,
+                    "displayValue": "3"
+                },
+                {
+                    "columnId": 224662866159492,
+                    "value": "2018-12-13T16:41:39Z"
+                },
+                {
+                    "columnId": 489914140780420
+                }
+            ]
+        },
+        {
+            "id": 8764751465473924,
+            "rowNumber": 4,
+            "siblingId": 4261151838103428,
+            "expanded": true,
+            "createdAt": "2018-11-30T20:26:35Z",
+            "modifiedAt": "2018-12-13T17:14:38Z",
+            "cells": [
+                {
+                    "columnId": 6557849842149252
+                },
+                {
+                    "columnId": 4306050028464004,
+                    "value": "Slytherin",
+                    "displayValue": "Slytherin"
+                },
+                {
+                    "columnId": 8809649655834500,
+                    "value": "50",
+                    "displayValue": "50"
+                },
+                {
+                    "columnId": 224662866159492,
+                    "value": "2018-12-13T17:14:38Z"
+                },
+                {
+                    "columnId": 489914140780420
+                }
+            ]
+        },
+        {
+            "id": 5329576761026436,
+            "rowNumber": 5,
+            "siblingId": 8764751465473924,
+            "expanded": true,
+            "createdAt": "2018-12-04T15:31:25Z",
+            "modifiedAt": "2018-12-04T15:31:25Z",
+            "cells": [
+                {
+                    "columnId": 6557849842149252
+                },
+                {
+                    "columnId": 4306050028464004
+                },
+                {
+                    "columnId": 8809649655834500
+                },
+                {
+                    "columnId": 224662866159492
+                },
+                {
+                    "columnId": 489914140780420
+                }
+            ]
+        }
+    ]
 }
