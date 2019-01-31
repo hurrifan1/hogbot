@@ -1,0 +1,35 @@
+{
+    "isMutuallyAuthenticated": false,
+    "contentLength": 3195,
+    "contentType": "application/json; charset=UTF-8",
+    "contentEncoding": null,
+    "cookies": [],
+    "lastModified": "2019-01-31T16:07:21.324731+00:00",
+    "server": "",
+    "protocolVersion": {
+        "major": 1,
+        "minor": 1,
+        "build": -1,
+        "revision": -1,
+        "majorRevision": -1,
+        "minorRevision": -1
+    },
+    "headers": [
+        "Date",
+        "Cache-Control",
+        "Pragma",
+        "Vary",
+        "Keep-Alive",
+        "Connection",
+        "Expires",
+        "Content-Type",
+        "Content-Length"
+    ],
+    "method": "GET",
+    "responseUri": "https://api.smartsheet.com/2.0/sheets/6219962109978500/",
+    "statusCode": 200,
+    "statusDescription": "OK",
+    "characterSet": "UTF-8",
+    "supportsHeaders": true,
+    "isFromCache": false
+}
