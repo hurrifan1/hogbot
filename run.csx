@@ -129,7 +129,7 @@ log.LogInformation($"Old value: {prev_value}");
 log.LogInformation($"New value: {new_value}");
 
 
-HttpWebRequest reqX = (HttpWebRequest)WebRequest.Create("https://ios-slack.azurewebsites.net/api/HttpTrigger4?code=8tGkPNOOLiUlZK0XZRUIRASO5U3msH7Tyk4vH0R4GCaDRXItBbYenA==");
+HttpWebRequest reqX = (HttpWebRequest)WebRequest.Create("https://hooks.slack.com/services/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");
 reqX.Method = "POST";
 reqX.ContentType = "application/json";
 Stream stream = reqX.GetRequestStream();
